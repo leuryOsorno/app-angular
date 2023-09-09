@@ -1,0 +1,16 @@
+.example-card {
+    max-width: 300px;
+}
+
+.example-header-image {
+    background-size: cover;
+}
+
+.carrusel {
+    display: grid;
+    gap: 1rem;
+    grid-auto-flow: dense;
+    grid-auto-rows: 28rem;
+    grid-template-columns: repeat(auto-fill, minmax(1fr));
+    padding: 1em;
+}
